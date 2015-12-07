@@ -1,0 +1,46 @@
+Signal Analysis is the only function needed for
+this project. 
+
+All filters are found in the MATLAB folder.
+
+All .wav files are automatically saved to the WAV folder
+
+All figures are saved to the picture subfolder in the DOC folder
+
+To run SignalAnalysis:
+
+SignalAnalysis(x)
+
+if x is a .wav file (with the .wav extension) it will run the
+appropriate .wav file
+
+
+
+else, if x is an integer, it will do the following:
+
+0 = gaussian noise added to wave1
+
+1 = poisson noise added to wave1
+
+2 = salt & pepper noise added to wave1
+
+3 = speckle noise added to wave1
+
+4 = Low Frequency beep from wave1
+
+5 = High Frequency beep from wave1
+
+6 = nsp0 filter
+
+7 = nsp1 filter
+
+8 = nsp2 filter
+
+9 = nsp3 filter
+
+-------------------------------------------
+
+For the beta of project 2, I have fully finished all
+required filters, all required matlab code, and automated
+all of the file generation and organization. All that is left
+is writing out the documentation for it.
